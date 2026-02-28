@@ -430,6 +430,7 @@ animations = [{
 
 [node name="Player" type="CharacterBody2D" unique_id=444317631]
 texture_filter = 1
+collision_layer = 3
 script = ExtResource("1_tuyoq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=51699640]
@@ -443,4 +444,4 @@ position = Vector2(-1, -16)
 scale = Vector2(0.6, 0.6)
 sprite_frames = SubResource("SpriteFrames_tk41t")
 animation = &"idle"
-frame_progress = 0.7581796
+frame_progress = 0.17926072
